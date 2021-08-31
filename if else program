@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main()
+
+{
+int cgpa;
+cout<<"enter your overall cgpa";
+cin>>cgpa;
+
+if ( cgpa>=6.5)
+cout<<"you are eligible for this offer";
+else
+cout<<"you are not eligible for this offer";
+return 0;
